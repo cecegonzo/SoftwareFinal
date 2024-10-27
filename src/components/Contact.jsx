@@ -1,24 +1,30 @@
 import React, { useState } from "react";
 
 const Contact = () => {
-    const[formData, setFormData] = useState({
+    const [formData, setFormData] = useState({
         name: '',
         email: '',
         message: '',
-
-
     });
 
-    const handleChange = (e) =>{
-        e.preventDefault();
-        console.log('Form submit:', formData);
-        setFormData({name: '', email:'', message:''});
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData({
+            ...formData,
+            [name]: value,
+        });
     };
 
-    return(
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        console.log('Form submit:', formData);
+        setFormData({ name: '', email: '', message: '' });
+    };
+
+    return (
         <div>
-<h1> Contact us here</h1>
-<form onSubmit={handleSubmit}>
+            <h1>Contact us here</h1>
+            <form onSubmit={handleSubmit}>
                 <div>
                     <label>
                         Name:
@@ -61,5 +67,6 @@ const Contact = () => {
 };
 
 export default Contact;
+
 
 
