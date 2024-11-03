@@ -25,6 +25,6 @@ const contact =() => {
     </form>
 </section>
 
-// i messed it up//
+
 }
 }
