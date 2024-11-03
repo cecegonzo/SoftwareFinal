@@ -1,72 +1,30 @@
 import React, { useState } from "react";
+import './contact.css'
 
-const Contact = () => {
-    const [formData, setFormData] = useState({
-        name: '',
-        email: '',
-        message: '',
-    });
+const contact =() => {
+    return
+{
+<section className="contact">
+    <form>
+        <h2> Contact Form </h2>
+        <div className="input-box">
+            <label>Full Name</label>
+            <input type="text" className="field" placeholder="Enter you name please" required />
 
-    const handleChange = (e) => {
-        const { name, value } = e.target;
-        setFormData({
-            ...formData,
-            [name]: value,
-        });
-    };
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        console.log('Form submit:', formData);
-        setFormData({ name: '', email: '', message: '' });
-    };
-
-    return (
-        <div>
-            <h1>Contact us here</h1>
-            <form onSubmit={handleSubmit}>
-                <div>
-                    <label>
-                        Name:
-                        <input
-                            type="text"
-                            name="name"
-                            value={formData.name}
-                            onChange={handleChange}
-                            required
-                        />
-                    </label>
-                </div>
-                <div>
-                    <label>
-                        Email:
-                        <input
-                            type="email"
-                            name="email"
-                            value={formData.email}
-                            onChange={handleChange}
-                            required
-                        />
-                    </label>
-                </div>
-                <div>
-                    <label>
-                        Message:
-                        <textarea
-                            name="message"
-                            value={formData.message}
-                            onChange={handleChange}
-                            required
-                        />
-                    </label>
-                </div>
-                <button type="submit">Send Message</button>
-            </form>
         </div>
-    );
-};
+         <div className="input-box">
+        <label>Email Adress</label>
+        <input type="text" className="field" placeholder="Enter your email please" required />
 
-export default Contact;
+        </div>
+        <div className="input-box">
+        <label>Your question?</label>
+        <textarea name="" id="" className="field" placeholder="Enter your question" required></textarea>
+    </div>
+    <button type="submit">Send Message</button>
+    </form>
+</section>
 
 
-
+}
+}
