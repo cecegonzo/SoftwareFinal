@@ -22,7 +22,7 @@ const Contact = () => {
     };
 
     return (
-        <div className="">
+        <div>
             <h1>Contact us here</h1>
             <form onSubmit={handleSubmit}>
                 <div>
@@ -69,4 +69,5 @@ const Contact = () => {
 export default Contact;
 
 
-
+}
+}
