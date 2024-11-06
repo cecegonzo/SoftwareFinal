@@ -6,8 +6,8 @@ const Navbar = () => {
 
 <nav className="bg-[#FFE7E7] w-screen h-[69px] fixed top-0">
   <div className='flex flex-wrap items-center justify-between mx-auto p-4'>
-   <a href='#'>
-   <img src='./Star 1.png' className='flex items-center self-center'/>
+   <a href='/#'>
+   <img src='./Star 1.png' alt='star' className='flex items-center self-center'/>
     </a>
 
     <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
@@ -22,16 +22,16 @@ const Navbar = () => {
   <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
     <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium text-[20px]  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
       <li>
-        <a href="#" class="block py-2 px-3 text-white bg-[#1D7AF2] rounded md:bg-transparent md:text-blue-700 md:p-0 " aria-current="page">Home</a>
+        <a href="/Home" class="block py-2 px-3 text-white bg-[#1D7AF2] rounded md:bg-transparent md:text-blue-700 md:p-0 " aria-current="page">Home</a>
       </li>
       <li>
-        <a href="#" class="block py-2 px-3 text-gray-900 rounded md:hover:bg-transparent md:hover:text-blue-700 md:p-0 hover:text-[#1D7AF2]">About</a>
+        <a href="/#" class="block py-2 px-3 text-gray-900 rounded md:hover:bg-transparent md:hover:text-blue-700 md:p-0 hover:text-[#1D7AF2]">About</a>
       </li>
       <li>
-        <a href="#" class="block py-2 px-3 text-gray-900 rounded md:hover:bg-transparent md:hover:text-blue-700 md:p-0 hover:text-[#1D7AF2]">Services</a>
+        <a href="/#" class="block py-2 px-3 text-gray-900 rounded md:hover:bg-transparent md:hover:text-blue-700 md:p-0 hover:text-[#1D7AF2]">Services</a>
       </li>
       <li>
-      <a href="#" class="block py-2 px-3 text-gray-900 rounded md:hover:bg-transparent md:hover:text-blue-700 md:p-0 hover:text-[#1D7AF2]">Contact</a>
+      <a href="/Contact" class="block py-2 px-3 text-gray-900 rounded md:hover:bg-transparent md:hover:text-blue-700 md:p-0 hover:text-[#1D7AF2]">Contact</a>
       </li>
     </ul>
   </div>
