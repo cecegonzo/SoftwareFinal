@@ -11,27 +11,19 @@ const Contact =() => {
     <div className='bg-white'>
       <Navbar />
 
-<section className="contact">
+<section className="contact">  
       <form>
 
-        <h1>Contact Form </h1>
-        
+      <h1>Contact </h1>
         <div className="input-box">
-          <label> Full Name </label>
-          <input type="text" className="field" placeholder=' Enter your name' required ></input>
+          <input type="text" className="field" placeholder='Email' required ></input>
         </div>
 
         <div className="input-box">
-          <label> Email Address </label>
-          <input type="text" className="field" placeholder=' Enter your email' required ></input>
+          <input type="text" className="field" placeholder='Name' required ></input>
         </div>
 
-        <div className="input-box">
-          <label> Your Question? </label>
-          <textarea name="" id="" classname="field message" placeholder=' Enter your question' required ></textarea>
-        </div>
-
-        <button type="submit"> Send Message </button>
+        <button type="submit"> Submit </button>
         </form>
   </section>
         <Footer />
