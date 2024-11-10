@@ -10,8 +10,8 @@ const Contact =() => {
     
     <div className='bg-white'>
       <Navbar />
-
-      <h1>Contact </h1>
+      
+    
 <section className="contact">  
       <form>
 
@@ -25,8 +25,10 @@ const Contact =() => {
         </div>
 
         <button type="submit"> Submit </button>
+        
         </form>
   </section>
+
         <Footer />
     </div>
   )
