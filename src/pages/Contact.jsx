@@ -3,7 +3,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import './contact.css'
+import "../css/Contact.module.css";
 
 const Contact =() => {
   return(
@@ -11,9 +11,11 @@ const Contact =() => {
     <div className='bg-white'>
       <Navbar />
 
+<section className="contact">
       <form>
 
         <h1>Contact Form </h1>
+        
         <div className="input-box">
           <label> Full Name</label>
           <input type="text" className="field" placeholder='Enter your name' required ></input>
@@ -31,7 +33,7 @@ const Contact =() => {
 
         <button type="submit"> Send Message </button>
         </form>
-
+  </section>
         <Footer />
     </div>
   )
