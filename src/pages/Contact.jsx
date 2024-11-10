@@ -12,7 +12,7 @@ const Contact =() => {
       <Navbar />
 
       <form>
-        
+
         <h1>Contact Form </h1>
         <div className="input-box">
           <label> Full Name</label>
@@ -26,7 +26,7 @@ const Contact =() => {
 
         <div className="input-box">
           <label> Your Question?</label>
-          <textarea name="" id="" placeholder='Enter your question' required ></input>
+          <textarea name="" id="" classname="field message" placeholder='Enter your question' required ></input>
         </div>
 
         <button type="submit"> Send Message </button>
