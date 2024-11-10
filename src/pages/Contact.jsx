@@ -11,6 +11,7 @@ const Contact =() => {
     <div className='bg-white'>
       <Navbar />
 
+      <h1>Contact </h1>
 <section className="contact">  
       <form>
 
