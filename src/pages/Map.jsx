@@ -1,4 +1,5 @@
 import React from 'react'
+
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 const Map = () => {
@@ -7,6 +8,15 @@ const Map = () => {
       <div className='bg-white'>
       <Navbar />
     <div>
+
+
+
+
+    
+            
+        
+    
+
       
     </div>
   

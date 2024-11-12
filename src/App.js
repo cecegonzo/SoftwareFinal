@@ -3,8 +3,18 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Map from './pages/Map';
 import Services from './pages/Services';
+import ReactMapGL from "react-map-gl" //Heather is attempting map
+import { useState } from 'react';
 
 export default function App () {
+    const [viewport, setViewport] = useState({ /*adding hol*/
+        latitude: 14, 
+        longitude: 14,
+        width: "100vw",
+        height: "100vw",
+        zoom: 10
+    }); /*adding hol*/
+
     return(
         <div>
             <BrowserRouter>
@@ -17,8 +27,12 @@ export default function App () {
                     <Route path='/Services' element= {<Services />} />
                 </Routes>
             </BrowserRouter>
-        </div>
-    )
+
+            <ReactMapGL {...viewport}> markers here </ReactMapGL> 
+        </div> /*adding hol*/
+        );
+       
+    
 
 }
 
