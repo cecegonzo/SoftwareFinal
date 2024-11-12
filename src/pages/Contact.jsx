@@ -8,14 +8,17 @@ import "../css/Contact.module.css";
 const Contact =() => {
   return(
     
-    <div className='bg-white'>
+    <div>
       <Navbar />
-      
+
+      <h1 className='mt-20 text-center'>Contact </h1>
+
     
 <section className="contact">  
+
       <form>
 
-      <h1>Contact </h1>
+      
         <div className="input-box">
           <input type="text" className="field" placeholder='Email' required ></input>
         </div>
