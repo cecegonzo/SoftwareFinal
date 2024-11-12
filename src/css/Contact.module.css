@@ -10,12 +10,12 @@
 
 form{
     max-width: 600px;
-    width: 393px;
+    width: 3093px;
     height: 318px;
     top: -202px;
-    left: 2076px;
+    
     border-radius: 20px;
-    text-indent: 80px;
+    text-indent: 180px;
     background: #FFE7E7;
     padding: 25px;
     border-radius: 8px;
@@ -37,29 +37,38 @@ form{
 
 
 
-.input-box .field {
+input {
     width: 248px;
     height: 64px;
     color: #0056b3;
     top: -170px;
     left: 2100px;
-    margin-bottom: 15px;
-    box-sizing: 100px;
+    text-align: left;
+    text-indent: 10px;
+    color: black;
+    margin-left: -30px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border-radius: 15px;
 }
 
 
 form button {
-    width: 101px;
-    height: 21px;
+    width: 151px;
+    height: 51px;
+    top: 47px;
+    
     text-align: center;
     background-color: #007BFF;
     color: white;
-    border: none;
+    border:none;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 24px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin: auto;
+    margin-top: 40px;
+    margin-left: 370px;
+    
 
 }
 
