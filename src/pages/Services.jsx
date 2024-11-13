@@ -2,19 +2,25 @@ import React from 'react'
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import "../css/Service.module.css"
+
+
 const Services = () => {
   return (
     <div className='bg-white'>
       <Navbar />
     
     <h2> Type of Services </h2>
-    <div className='Services'>
+    
+    <div>
     <h3> Primary Care/Provider </h3>
     <p> 
          This is where you can find all </p>
      <p> the Primary care/Provider near you, or </p>
      <p> online. 
     </p>
+    
+   <img class="img_prim" src='./Primary car.jpg' alt='primary'/>
+    
     </div>
     
     <div>
