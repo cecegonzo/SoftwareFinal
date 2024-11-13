@@ -11,7 +11,7 @@ const Services = () => {
     
     <h2> Type of Services </h2>
     
-    <div>
+    <div class='right'>
     <h3> Primary Care/Provider </h3>
     <p> 
          This is where you can find all </p>
@@ -19,7 +19,7 @@ const Services = () => {
      <p> online. 
     </p>
     
-   <img class="img_prim" src='./Primary car.jpg' alt='primary'/>
+   <img src='./Primary car.jpg' alt='primary'/>
     
     </div>
     
