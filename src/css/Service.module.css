@@ -3,7 +3,7 @@ h2{
     font-size: 22px;
    display:inline;
     width: 10%;
-    margin: auto;
+   text-align: center;
     line-height: 30px;
     font-weight: 600;
     color:#007BFF;
@@ -26,13 +26,57 @@ h3{
 }
 
 p{
-    font-size: 12px;
+    font-size: 14px;
     font-family: inter;
     text-indent: 40px;
 }
 
-.right img {
-    margin-top: 9px; 
-    margin-left: 800px; 
+ h4 img{
+    margin-top: -800px;
+    margin-left: 700px; 
+    border: none;
+    border-radius: 15px;
+    float: inline-end;
+    
+    
+  }
+
+  h5 img{
+    margin-top: -620px; 
+    margin-left: 700px; 
+    border: none;
+    border-radius: 15px;
+    float: inline-end;
+  }
+
+  h6 img{
+    margin-top: -440px; 
+    margin-left: 700px; 
+    border: none;
+    border-radius: 15px;
+    float: inline-end;
   }
   
+  h7 img{
+    margin-top: -260px; 
+    margin-left: 700px; 
+    border: none;
+    border-radius: 15px;
+    float: inline-end;
+  }
+
+  h8 img{
+    margin-top: -80px; 
+    margin-left: 700px; 
+    border: none;
+    border-radius: 15px;
+    float: inline-end;
+  }
+
+  h9 img{
+    margin-top: 30px; 
+    margin-left: 700px; 
+    border: none;
+    border-radius: 15px;
+    float: inline-end;
+  }

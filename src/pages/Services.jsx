@@ -9,7 +9,7 @@ const Services = () => {
     <div className='bg-white'>
       <Navbar />
     
-    <h2> Type of Services </h2>
+      <h1 className='mt-20 text-center'>Type of Services </h1>
     
     <div class='right'>
     <h3> Primary Care/Provider </h3>
@@ -18,9 +18,6 @@ const Services = () => {
      <p> the Primary care/Provider near you, or </p>
      <p> online. 
     </p>
-    
-   <img src='./Primary car.jpg' alt='primary'/>
-    
     </div>
     
     <div>
@@ -63,7 +60,31 @@ const Services = () => {
       <p> therapy. Transgender care is not just </p>
       <p> about transitioning medically. </p>
     </div>
-  
+    <h4>
+   <img src='./Primary car.jpg' alt='primary'/>
+    </h4>
+
+<h5>
+<img src='./therapy.png' alt='therapy'/>
+
+</h5>
+
+<h6>
+<img src='./insurance.png' alt='therapy'/>
+
+</h6>
+
+<h7>
+  <img src='./hormone therapy.png'/>
+</h7>
+
+<h8>
+  <img src='./pharmacy.png'/>
+</h8>
+
+<h9>
+  <img src='./teens and family.jpg'/>
+</h9>
 
 <Footer />
 </div>
