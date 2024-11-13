@@ -7,8 +7,9 @@ const Services = () => {
     <div className='bg-white'>
       <Navbar />
     
-    <div>
-    <h1> Primary Care/Provider </h1>
+    <h2> Type of Services </h2>
+    <div className='Services'>
+    <h3> Primary Care/Provider </h3>
     <p> 
          This is where you can find all </p>
      <p> the Primary care/Provider near you, or </p>
@@ -17,7 +18,7 @@ const Services = () => {
     </div>
     
     <div>
-      <h1>Therapy</h1>
+      <h3>Therapy</h3>
       <p>
         This is where you can find all the </p>
       <p> therapists and what services they </p>
@@ -26,7 +27,7 @@ const Services = () => {
     </div>
     
     <div>
-      <h1> Insurance </h1>
+      <h3> Insurance </h3>
       <p> This is where you can find all types of
       </p>
       <p> insurances that could help you cover</p>
@@ -34,7 +35,7 @@ const Services = () => {
     </div>
     
     <div>
-      <h1> Hormone Therapy </h1>
+      <h3> Hormone Therapy </h3>
       <p>This is where you can learn what</p>
       <p> hormone therapy is, and where you </p>
       <p> can access hormone therapy</p>
@@ -42,14 +43,14 @@ const Services = () => {
     </div>
    
     <div>
-      <h1> Pharmacy </h1>
+      <h3> Pharmacy </h3>
       <p> This is where you can learn what </p>
       <p> pharmacy is best suited for your</p>
       <p> care. </p>
     </div>
     
     <div> 
-      <h1> Teens & Family </h1>
+      <h3> Teens & Family </h3>
       <p> This is where you can learn more </p>
       <p> about transgender care for your kids </p>
       <p> that does not involve hormone </p>
