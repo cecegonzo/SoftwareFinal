@@ -1,97 +1,83 @@
 
 h2{
-    font-family: poppins;
-    font-size: 22px;
-   display:inline;
-    width: 10%;
-   text-align: center;
-    line-height: 30px;
-    font-weight: 600;
-    color:#007BFF;
-    text-align: center;
-    
-    
-   
+  font-family: poppins;
+  font-size: 22px;
+ display:inline;
+  width: 10%;
+ text-align: center;
+  line-height: 30px;
+  font-weight: 600;
+  color:#007BFF;
+  text-align: center;
+  
+  
+ 
 }
 
 
 h3{
-    font-size: 20px;
-    font-family: inter;
-    color: #007BFF;
-    line-height: 60px;
-    margin-top: 43px;
-    text-indent: 40px;
+  font-size: 20px;
+  font-family: inter;
+  color: #007BFF;
+  line-height: 85px;
+  margin-top: 43px;
+  text-indent: 40px;
 
-    
+  
 }
 
 p{
-    font-size: 14px;
-    font-family: inter;
-    text-indent: 40px;
+  font-size: 14px;
+  font-family: inter;
+  text-indent: 40px;
 }
 
- h4 img{
-    margin-top: -1040px;
-    margin-left: 700px; 
-    border: none;
-    border-radius: 15px;
-    float: inline-end;
-    
-    
-  }
-
-  h5 img{
-    margin-top: -870px; 
-    margin-left: 700px; 
-    border: none;
-    border-radius: 15px;
-    float: inline-end;
-  }
-
-  h6 img{
-    margin-top: -700px; 
-    margin-left: 700px; 
-    border: none;
-    border-radius: 15px;
-    float: inline-end;
-  }
+h4 img{
+  margin-top: -1145px;
+  margin-left: 700px; 
+  border: none;
+  border-radius: 15px;
+  float: inline-end;
   
-  h7 img{
-    margin-top: -530px; 
-    margin-left: 700px; 
-    border: none;
-    border-radius: 15px;
-    float: inline-end;
-  }
-
-  h8 img{
-    margin-top: -360px; 
-    margin-left: 700px; 
-    border: none;
-    border-radius: 15px;
-    float: inline-end;
-  }
-
-  h9 img{
-    margin-top: 30px; 
-    margin-left: 700px; 
-    border: none;
-    border-radius: 15px;
-    float: inline-end;
-  }
-
-  @media screen and (max-width: 35em){
-    hi{
-      height: auto;
-      overflow-y: scroll;  
-    }
+  
 }
 
-@media screen and (max-width: 65em){
-  hi{
-    height: auto;
-    overflow-y: scroll;
-  }
+h5 img{
+  margin-top: -950px; 
+  margin-left: 700px; 
+  border: none;
+  border-radius: 15px;
+  float: inline-end;
+}
+
+h6 img{
+  margin-top: -755px; 
+  margin-left: 700px; 
+  border: none;
+  border-radius: 15px;
+  float: inline-end;
+}
+
+h7 img{
+  margin-top: -560px; 
+  margin-left: 700px; 
+  border: none;
+  border-radius: 15px;
+  float: inline-end;
+}
+
+h8 img{
+  margin-top: -360px; 
+  margin-left: 700px; 
+  border: none;
+  border-radius: 15px;
+  float: inline-end;
+}
+
+h9 img{
+  margin-top: -160px; 
+  margin-left: 700px; 
+  border: none;
+  border-radius: 15px;
+  float: inline-end;
 }

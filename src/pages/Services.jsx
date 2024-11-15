@@ -6,13 +6,12 @@ import "../css/Service.module.css"
 
 const Services = () => {
   return (
-    <div className="h-screen bg-white justify-center items-center overflow-y-auto">
+    <div className='bg-white'>
       <Navbar />
     
-      <h1 className=''>Type of Services </h1>
+      <h1 className='mt-20 text-center'>Type of Services </h1>
     
-    <div class='hi'>
-
+    <div class='right'>
     <h3> Primary Care/Provider </h3>
     <p> 
          This is where you can find all </p>
@@ -60,6 +59,7 @@ const Services = () => {
       <p> that does not involve hormone </p>
       <p> therapy. Transgender care is not just </p>
       <p> about transitioning medically. </p>
+     
     </div>
     <h4>
    <img src='./Primary car.jpg' alt='primary'/>
@@ -71,24 +71,23 @@ const Services = () => {
 </h5>
 
 <h6>
-<img src='./insurance.png' alt='insurance'/>
+<img src='./insurance.png' alt='therapy'/>
 
 </h6>
 
 <h7>
-  <img src='./hormone therapy.png' alt='hormone'/>
+  <img src='./hormone therapy.png'/>
 </h7>
 
 <h8>
-  <img src='./pharmacy.png' alt='pharmacy'/>
+  <img src='./pharmacy.png'/>
 </h8>
 
 <h9>
-  <img src='./teens and family.jpg' alt='teens and family '/>
+  <img src='./teens and family.jpg'/>
 </h9>
 
 <Footer />
-
 </div>
   )
 }
