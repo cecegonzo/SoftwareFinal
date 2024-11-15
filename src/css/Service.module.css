@@ -1,3 +1,4 @@
+
 h2{
     font-family: poppins;
     font-size: 22px;
@@ -18,7 +19,7 @@ h3{
     font-size: 20px;
     font-family: inter;
     color: #007BFF;
-    line-height: 20px;
+    line-height: 60px;
     margin-top: 43px;
     text-indent: 40px;
 
@@ -32,7 +33,7 @@ p{
 }
 
  h4 img{
-    margin-top: -800px;
+    margin-top: -1040px;
     margin-left: 700px; 
     border: none;
     border-radius: 15px;
@@ -42,7 +43,7 @@ p{
   }
 
   h5 img{
-    margin-top: -620px; 
+    margin-top: -870px; 
     margin-left: 700px; 
     border: none;
     border-radius: 15px;
@@ -50,7 +51,7 @@ p{
   }
 
   h6 img{
-    margin-top: -440px; 
+    margin-top: -700px; 
     margin-left: 700px; 
     border: none;
     border-radius: 15px;
@@ -58,7 +59,7 @@ p{
   }
   
   h7 img{
-    margin-top: -260px; 
+    margin-top: -530px; 
     margin-left: 700px; 
     border: none;
     border-radius: 15px;
@@ -66,7 +67,7 @@ p{
   }
 
   h8 img{
-    margin-top: -80px; 
+    margin-top: -360px; 
     margin-left: 700px; 
     border: none;
     border-radius: 15px;
@@ -80,3 +81,17 @@ p{
     border-radius: 15px;
     float: inline-end;
   }
+
+  @media screen and (max-width: 35em){
+    hi{
+      height: auto;
+      overflow-y: scroll;  
+    }
+}
+
+@media screen and (max-width: 65em){
+  hi{
+    height: auto;
+    overflow-y: scroll;
+  }
+}

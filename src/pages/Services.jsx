@@ -6,12 +6,13 @@ import "../css/Service.module.css"
 
 const Services = () => {
   return (
-    <div className='bg-white'>
+    <div className="h-screen bg-white justify-center items-center overflow-y-auto">
       <Navbar />
     
-      <h1 className='mt-20 text-center'>Type of Services </h1>
+      <h1 className=''>Type of Services </h1>
     
-    <div class='right'>
+    <div class='hi'>
+
     <h3> Primary Care/Provider </h3>
     <p> 
          This is where you can find all </p>
@@ -70,23 +71,24 @@ const Services = () => {
 </h5>
 
 <h6>
-<img src='./insurance.png' alt='therapy'/>
+<img src='./insurance.png' alt='insurance'/>
 
 </h6>
 
 <h7>
-  <img src='./hormone therapy.png'/>
+  <img src='./hormone therapy.png' alt='hormone'/>
 </h7>
 
 <h8>
-  <img src='./pharmacy.png'/>
+  <img src='./pharmacy.png' alt='pharmacy'/>
 </h8>
 
 <h9>
-  <img src='./teens and family.jpg'/>
+  <img src='./teens and family.jpg' alt='teens and family '/>
 </h9>
 
 <Footer />
+
 </div>
   )
 }
