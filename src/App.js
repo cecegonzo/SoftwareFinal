@@ -22,7 +22,7 @@ export default function App () {
             </BrowserRouter>
 
 
-        </div> /*adding hol*/
+        </div> 
         );
        
     
