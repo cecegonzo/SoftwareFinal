@@ -62,29 +62,41 @@ const Services = () => {
      
     </div>
     <h4>
+    <a href='https://www.phntx.org/services/transgender-care/'>
    <img src='./Primary car.jpg' alt='primary'/>
+   </a>
     </h4>
 
 <h5>
+  <a href='https://transcare.ucsf.edu/guidelines/overview'>
 <img src='./therapy.png' alt='therapy'/>
-
+</a>
 </h5>
 
 <h6>
+  <a href='https://www.bcbstx.com/'>
 <img src='./insurance.png' alt='therapy'/>
-
+</a>
 </h6>
 
 <h7>
-  <img src='./hormone therapy.png'/>
+  <a href='https://www.plannedparenthood.org/health-center/texas/dallas/75231/north-
+dallas-shelburne-health-center-2521-91620/gender-affirming-care'>
+  <img src='./hormone therapy.png' alt='hormone'/>
+  
+  </a>
 </h7>
 
 <h8>
-  <img src='./pharmacy.png'/>
+  <a href='https://www.phntx.org/locations/prism-health-north-texas-pharmacy/'>
+  <img src='./pharmacy.png' alt='pharmacy'/>
+  </a>
 </h8>
 
 <h9>
-  <img src='./teens and family.jpg'/>
+  <a href='https://www.transyouthequality.org/for-parents'>
+  <img src='./teens and family.jpg' alt='teens and family'/>
+  </a>
 </h9>
 
 <Footer />
