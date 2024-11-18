@@ -29,8 +29,8 @@ const Map = () => {
 
   return (
     <div className="bg-white">
-      <Navbar />
-      <div className="map-container" style={{ height: '90vh', margin: '90px'}}>
+      <Navbar /> 
+      <div className="map-container" style={{ height: '90vh', margin: '90px'}}>  {/* Hol adjusted the size of the map*/}
         <MapContainer center={[29.7102, -95.4007]} zoom={15} style={{ width: '100%', height: '100%' }}>
           <TileLayer
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
