@@ -42,12 +42,12 @@ dallas-shelburne-health-center-2521-91620/gender-affirming-care' className='text
 <ul className='text-xl text-pink-200 font-bold font-large'> Hotlines 
   <li><a className='text-sm font-medium text-white'>Phone number: </a></li>
   <li><a className='text-sm font-medium text-white'> (877) 565-8860 </a></li>
-  <li><a className='text-lg font-large text-pink-200'>National Suicide </a></li>
-  <li><a className='text-lg font-large text-pink-200'>Prevention Lifeline</a></li>
+  <li><a className='text-base font-large text-pink-200'>National Suicide </a></li>
+  <li><a className='text-base font-large text-pink-200'>Prevention Lifeline</a></li>
   <li><a className='text-sm font-medium text-white'> (800) 273- 8255</a></li>
-  <li><a className='text-lg font-large text-pink-200'> Texas Counselor </a></li>
+  <li><a className='text-base font-large text-pink-200'> Texas Counselor </a></li>
   <li><a className='text-sm font-medium text-white'> (866) 488-7386 </a></li>
-  <li><a className='text-lg font-large text-pink-200'>TrevorText </a></li>
+  <li><a className='text-base font-large text-pink-200'>TrevorText </a></li>
   <li><a className='text-sm font-medium text-white'> Text START to </a></li>
   <li><a className='text-sm font-medium text-white'> 678-678 </a></li>
   </ul>

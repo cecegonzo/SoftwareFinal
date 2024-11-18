@@ -27,8 +27,8 @@ const Contact =() => {
           <input type="text" className="field" placeholder='Name' required ></input>
         </div>
 
-        <div className='imput-box'>
-          <input type='textbox' className='field' placeholder='Questions' required></input>
+        <div className='input-box'>
+          <textarea id='message' className='field' placeholder='Questions' required></textarea>
         </div>
 
         <button type="submit"> Submit </button>
