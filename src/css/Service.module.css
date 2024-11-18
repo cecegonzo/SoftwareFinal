@@ -1,20 +1,4 @@
 
-h2{
-  font-family: poppins;
-  font-size: 22px;
- display:inline;
-  width: 10%;
- text-align: center;
-  line-height: 30px;
-  font-weight: 600;
-  color:#007BFF;
-  text-align: center;
-  
-  
- 
-}
-
-
 h3{
   font-size: 20px;
   font-family: inter;
@@ -22,6 +6,7 @@ h3{
   line-height: 85px;
   margin-top: 43px;
   text-indent: 40px;
+  
 
   
 }
@@ -30,6 +15,7 @@ p{
   font-size: 14px;
   font-family: inter;
   text-indent: 40px;
+
 }
 
 

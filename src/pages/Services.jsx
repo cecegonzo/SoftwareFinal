@@ -12,6 +12,7 @@ const Services = () => {
       <h1 className='mt-20 text-center'>Type of Services </h1>
     
     <div class='right'>
+      <div>
     <h3> Primary Care/Provider </h3>
     <p> 
          This is where you can find all </p>
@@ -61,6 +62,8 @@ const Services = () => {
       <p> about transitioning medically. </p>
      
     </div>
+    </div>
+
     <h4>
     <a href='https://www.phntx.org/services/transgender-care/'>
    <img src='./Primary car.jpg' alt='primary'/>
