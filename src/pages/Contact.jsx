@@ -9,7 +9,7 @@ const Contact =() => {
   return(
     
     <div>
-      <Navbar />
+      <Navbar />  
 
       <h1 className='mt-20 text-center'>Contact </h1>
 

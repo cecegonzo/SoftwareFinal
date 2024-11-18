@@ -4,8 +4,8 @@ const Footer = () => {
   return (
     <footer className="bg-blue-700 text-white w-screen p-8 bottom-0 ">
       <div className="text-center">
-        <p className="text-xl font-bold font-large">Guide through your journey</p>
-        <p className="text-xl font-bold font-large">with ease</p> 
+        <p className="text-xl font-bold font-larger">Guide through your journey</p>
+        <p className="text-xl font-bold font-larger">with ease</p> 
         </div>
 
         <div className="flex justify-between gap-2 p-5">
