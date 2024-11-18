@@ -32,10 +32,12 @@ p{
   text-indent: 40px;
 }
 
+
 h4 img{
   margin-top: -1145px;
-  margin-left: 700px; 
-  border: none;
+  margin-left: 700px;
+  margin-right: 90px; 
+  border: solid 3px #0957BE;
   border-radius: 15px;
   float: inline-end;
   
@@ -44,8 +46,9 @@ h4 img{
 
 h5 img{
   margin-top: -950px; 
-  margin-left: 700px; 
-  border: none;
+  margin-left: 700px;
+  margin-right: 90px; 
+  border: solid 3px #0957BE;
   border-radius: 15px;
   float: inline-end;
 }
@@ -53,7 +56,8 @@ h5 img{
 h6 img{
   margin-top: -755px; 
   margin-left: 700px; 
-  border: none;
+  margin-right: 90px;
+  border: solid 3px #0957BE;
   border-radius: 15px;
   float: inline-end;
 }
@@ -61,15 +65,17 @@ h6 img{
 h7 img{
   margin-top: -560px; 
   margin-left: 700px; 
-  border: none;
+  margin-right: 90px;
+  border: solid 3px #0957BE;
   border-radius: 15px;
   float: inline-end;
 }
 
 h8 img{
   margin-top: -360px; 
-  margin-left: 700px; 
-  border: none;
+  margin-left: 700px;
+  margin-right: 90px; 
+  border: solid 3px #0957BE;
   border-radius: 15px;
   float: inline-end;
 }
@@ -77,7 +83,8 @@ h8 img{
 h9 img{
   margin-top: -160px; 
   margin-left: 700px; 
-  border: none;
+  margin-right: 90px;
+  border: solid 3px #0957BE;
   border-radius: 15px;
   float: inline-end;
 }

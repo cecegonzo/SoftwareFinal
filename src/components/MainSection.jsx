@@ -7,7 +7,7 @@ const MainSection = () => {
         <div className="flex flex-col space-y-4 max-w-md">
           <div className="text-left">
             <h1 className="text-3xl font-bold text-blue-700 leading-tight">
-              your one stop for
+              Your one stop 
             </h1>
             <h1 className="text-3xl font-bold text-blue-700 leading-tight">
               transgender guide
@@ -16,7 +16,7 @@ const MainSection = () => {
           
           <button 
             type="button" 
-            className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full px-6 py-2 text-center w-[150px]"
+           className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full px-6 py-2 text-center w-[150px]"
           >
             Learn More
           </button>

@@ -27,10 +27,16 @@ const Contact =() => {
           <input type="text" className="field" placeholder='Name' required ></input>
         </div>
 
+        <div className='imput-box'>
+          <input type='textbox' className='field' placeholder='Questions' required></input>
+        </div>
+
         <button type="submit"> Submit </button>
         
         </form>
   </section>
+
+
 
         <Footer />
     </div>
