@@ -75,7 +75,7 @@ const Services = () => {
 
 <h6>
   <a href='https://www.bcbstx.com/'>
-<img src='./insurance.png' alt='therapy'/>
+<img src='./insurance.png' alt='insurance'/>
 </a>
 </h6>
 

@@ -4,8 +4,8 @@ const Footer = () => {
   return (
     <footer className="bg-blue-700 text-white w-screen p-8 bottom-0 ">
       <div className="text-center">
-        <p className="text-xl font-medium">Guide through your journey</p>
-        <p className="text-xl font-medium">with ease</p> 
+        <p className="text-xl font-bold font-large">Guide through your journey</p>
+        <p className="text-xl font-bold font-large">with ease</p> 
         </div>
 
         <div className="flex justify-between gap-2 p-5">
@@ -14,11 +14,11 @@ const Footer = () => {
         <ul className="text-xl font-bold font-large"> Care & Services
           
            <li><a href='https://www.phntx.org/services/transgender-care/' className='text-lg font-medium text-white'>Primary Care</a></li>
-           <li><a href='https://www.phntx.org/locations/prism-health-north-texas-pharmacy/' className='text-lg font-medium text-white'>Pharmacy</a></li>
           <li><a href='https://transcare.ucsf.edu/guidelines/overview' className='text-lg font-medium text-white'>Therapy</a></li>
           <li><a href='https://www.bcbstx.com/' className='text-lg font-medium text-white'>Insurance</a></li>
           <li><a href='https://www.plannedparenthood.org/health-center/texas/dallas/75231/north-
 dallas-shelburne-health-center-2521-91620/gender-affirming-care' className='text-lg font-medium text-white'>Hormone Therapy</a></li>
+           <li><a href='https://www.phntx.org/locations/prism-health-north-texas-pharmacy/' className='text-lg font-medium text-white'>Pharmacy</a></li>
           <li><a href='https://www.transyouthequality.org/for-parents' className='text-lg font-medium text-white'>Teen & Family</a></li>
           
 
