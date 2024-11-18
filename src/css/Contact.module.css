@@ -1,0 +1,94 @@
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    min-height: 100vh;
+    background: #FFE7E7;
+}
+
+
+form{
+    width: 453px;
+    height: 518px;
+    border-radius: 20px;
+    text-indent: 180px;
+    background: #FFE7E7;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0, 0, .1);
+    color: #333;
+    margin: auto;
+    margin-bottom: 82px;
+    margin-top: 42px;
+
+}
+
+form textarea{
+    width: 248px;
+    height: 164px;
+    color: #0056b3;
+    top: -170px;
+    text-align: left;
+    text-indent: 20px;
+    color: black;
+    margin-left: -100px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 15px; 
+}
+
+ h1{
+    font-size: 32px;
+    font-family: Poppins;
+    width: 149px;
+    margin: auto;
+    font-weight: 600;
+    color:#007BFF;
+    text-align: center;
+   
+}
+
+
+
+input {
+    width: 248px;
+    height: 64px;
+    color: #0056b3;
+    top: -170px;
+    text-align: left;
+    text-indent: 20px;
+    color: black;
+    margin-left: -100px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+}
+
+
+form button {
+    width: 143px;
+    height: 43px;
+    text-align: center;
+    background-color: #007BFF;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 5px;
+    margin-left: 240px;
+    
+
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+@media(max-width: 768px){
+    form{
+        padding: 25px;
+    }
+}
