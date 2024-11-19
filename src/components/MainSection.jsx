@@ -22,7 +22,8 @@ const MainSection = () => {
           </button>
         </div>
         
-        <div className="w-48 h-48 bg-[#D68585] rounded-lg"></div>
+        <div></div>
+      <img src='unt flag.jpeg' alt='pride flag' className='rounded-lg'></img>
       </div>
     </section>
   );
