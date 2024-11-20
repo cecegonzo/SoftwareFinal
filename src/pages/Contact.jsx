@@ -7,14 +7,14 @@ import "../css/Contact.module.css";
 
 const Contact =() => {
   return(
-    
+    <main>
     <div>
       <Navbar />
 
       <h1 className='mt-20 text-center'>Contact </h1>
 
     
-<section className="contact">  
+<section className="contact mb-96">  
 
       <form>
 
@@ -32,8 +32,10 @@ const Contact =() => {
         </form>
   </section>
 
-        <Footer />
+       
     </div>
+    <Footer />
+    </main>
   )
 }
 

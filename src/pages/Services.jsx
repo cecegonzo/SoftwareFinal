@@ -86,7 +86,9 @@ const Services = () => {
   <img src='./teens and family.jpg'/>
 </h9>
 
+<div className='mt-80'>
 <Footer />
+</div>
 </div>
   )
 }
