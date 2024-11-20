@@ -6,7 +6,7 @@ const Navbar = () => {
 
 <nav className="bg-[#FFE7E7] w-screen h-[69px] fixed top-0">
   <div className='flex flex-wrap items-center justify-between mx-auto p-4'>
-   <a href='/#'>
+   <a href='/Home'>
    <img src='./Star 1.png' alt='star' className='flex items-center self-center'/>
     </a>
   

@@ -50,8 +50,16 @@ dallas-shelburne-health-center-2521-91620/gender-affirming-care' className="text
           <img src='./teens and family.jpg' alt='teens and family' className='rounded-lg'/>
           </a>
         </div>
+</div>
+        <div className=  "bg-white  p-8 mt-9 font-bold rounded-lg text-blue-700 text-[24px] text-center flex flex-col justify-center items-center"> 
+        Map 
+        <a href='/Map'>
+        <img src='./texas.webp' alt='texas' className='mb-8 mt-5 rounded-lg '>
+       
+       </img> </a>
+        </div>
 
-      </div>
+    
     </section>
   );
 }
