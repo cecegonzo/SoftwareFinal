@@ -6,6 +6,17 @@ import Footer from '../components/Footer';
 import "../css/Contact.module.css";
 
 const Contact =() => {
+  function sendEmail(e) {
+    e.preventDefault();    //This is important, i'm not sure why, but the email won't send without it
+
+    emailjs.sendForm('service_ha3pvts', 'template_ekpqcyo', e.target, 'o1seTcAYL1LzSjxtK')
+      .then((result) => {
+          window.location.reload()  //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior) 
+      }, (error) => {
+          console.log(error.text);
+      });
+  }
+
   return(
     
     <div>
