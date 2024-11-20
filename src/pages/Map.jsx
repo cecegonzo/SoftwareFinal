@@ -7,7 +7,7 @@ import L from 'leaflet';
 
 // Custom marker icon
 const customIcon = new L.Icon({
-  iconUrl: '/pin.png', // Custom pin image in the public folder
+  iconUrl: '/Pin.png', // Custom pin image in the public folder
   iconSize: [25, 30],
   iconAnchor: [12, 41],
   popupAnchor: [1, -34],
